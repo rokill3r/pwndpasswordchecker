@@ -1,9 +1,10 @@
 import hashlib
 import urllib.request
 import urllib.parse
+from getpass import getpass
 
 # enter the desired password and create the SHA1 password hash
-mystring = input('Enter password to check: ')
+mystring = getpass()
 hash_obj = hashlib.sha1(mystring.encode())
 hash_string = hash_obj.hexdigest()
 

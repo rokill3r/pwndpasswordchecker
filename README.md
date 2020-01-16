@@ -14,3 +14,7 @@ Enter password to check: 123456
 Password hash: 7c4a8d09ca3762af61e59520943dc26494f8941b
 PASSWORD HAS BEEN PWNED!!!
 ```
+
+# DISCLAIMER
+User are asked to input their password durring the runtime of this script. The owner does not take any responsability of any theft/lost of your data. This script does not store the input data. 
+Please first check the code and never trust anybody with your credentials

@@ -1,8 +1,9 @@
 # pwndpasswordchecker
 
 # ABOUT
-This a safe way to check if your password is present in a leaked database without providing the whole password
-To be save you are not sending the complete password hash to the server we break it down into 2 parts:
+This a safe way to check if your password is present in a leaked database without providing the whole password.
+
+To be safe you are not sending the complete password hash to the server we break it down into 2 parts:
  - first part will be used to call the website API which will retrieve all hashes starting with the 5 characters from the hash
  - second part will be the rest of the hash used locally by python to search if any of the returned hashes are found
 
